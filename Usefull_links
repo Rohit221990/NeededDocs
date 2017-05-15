@@ -5,6 +5,23 @@ xrandr --newmode "1600x900_60.00" 118.25 1600 1696 1856 2112 900 903 908 934 -hs
 xrandr --addmode DP1 1600x900_60.00 
 
 
+############## If your system (ubuntu) has a file system issues ###########################
+**********
+/dev/sda6: UNEXPECTED INCONSISTENCY; RUN fsck MANUALLY.
+        (i.e., without -a or -p options)
+fsck exited with status code 4
+The root filesystem on /dev/sda6 requires a manual fsck
+
+Busybox v1.22.1 (Ubuntu 1:1.22.0-15ubuntu1) built in shell (ash)
+Enter 'help' for a list of built-in commands.
+
+(initramfs) _
+
+Command to fix this:
+
+(initramfs) fsck -fy /dev/sda1 
+
+***********
 ######################### Angular 2 ########################################################
 
 https://johnpapa.net/angular-2-first-look/
