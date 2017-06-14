@@ -27,7 +27,7 @@ Command to fix this:
 https://johnpapa.net/angular-2-first-look/
 
 
-########################## regex validation for text search in a text file ######################################
+########################## regex validation for multiple text search in a text file ######################################
 
 var re = /(.*?(\b{search name}\b)[^$]*)(.*?(\b{search name}\b)[^$]*)(.*?(\b{search name}\b)[^$]*)$/
 
