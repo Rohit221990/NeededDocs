@@ -29,6 +29,6 @@ https://johnpapa.net/angular-2-first-look/
 
 ########################## regex validation for text search in a text file ######################################
 
-var re = /(.*?(\bClaim\b)[^$]*)(.*?(\bPatient's Name\b)[^$]*)(.*?(\bDate of Birth\b)[^$]*)$/
+var re = /(.*?(\b{search name}\b)[^$]*)(.*?(\b{search name}\b)[^$]*)(.*?(\b{search name}\b)[^$]*)$/
 
 
