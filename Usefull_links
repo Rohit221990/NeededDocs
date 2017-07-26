@@ -31,4 +31,8 @@ https://johnpapa.net/angular-2-first-look/
 
 var re = /(.*?(\b{search name}\b)[^$]*)(.*?(\b{search name}\b)[^$]*)(.*?(\b{search name}\b)[^$]*)$/
 
+########################## docker ####################################################
 
+1. follow this link....
+
+https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-16-04
