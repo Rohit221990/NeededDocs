@@ -1,0 +1,1 @@
+e.srcElement not working on firefox. Instead of that use e.target
