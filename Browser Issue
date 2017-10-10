@@ -1,1 +1,5 @@
 e.srcElement not working on firefox. Instead of that use e.target
+
+########## remove cross icon from internet explorer browser ###################
+
+input[type=text]::-ms-clear { display: none; }
