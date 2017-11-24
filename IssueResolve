@@ -1,0 +1,2 @@
+Github Pattern Issue:
+^$|^([A-Za-z,.-]{1,50}$) {this pattern resolve for empty and character with number  of 50}
